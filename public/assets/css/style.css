@@ -1,0 +1,40 @@
+i{
+    cursor: pointer;
+}
+
+
+.scrollable-container {
+
+    overflow-y: scroll;
+  }
+  
+.scrollable-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+    border-radius: 20px;
+  }
+  
+
+  .scrollable-container::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 20px;
+  }
+  
+  .scrollable-container::-webkit-scrollbar-corner {
+    background-color: #f1f1f1; 
+    border-radius: 20px;
+  }
+  
+  /* Optional: add some styling to the scrollbar */
+  .scrollable-container::-webkit-scrollbar {
+    width: 8px; 
+    height: 8px;
+    border-radius: 20px;
+  }
+  
+
+  
+  .BtnSubmit{
+    background: transparent;
+    border: none;
+    color: rgba(0, 0, 0, 0.504);
+  }
